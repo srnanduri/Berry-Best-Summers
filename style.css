@@ -1,0 +1,51 @@
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+input {
+    background: grey;
+}
+body {
+    background: linear-gradient(aquamarine 50%, rgb(255, 133, 249));
+    font-family: 'Caveat', cursive;
+}
+.hr {
+    border-color: rgb(12, 5, 75);
+}
+#contactUs {
+    border-width: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+#step1{
+    width: 20%;
+}
+#step2{
+    width: 20%;
+}
+#step3{
+    width: 50%;
+}

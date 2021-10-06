@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <title>
+          Fun Facts
+        </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel = "stylesheet" href = "style.css(funfacts)">
+      <script src="main.js"></script>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position:sticky; top:0; z-index:99999">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <img style = "width:55px;" src = "https://share.sketchpad.app/21/651-955a-a0d0e3.png">
+              <a class="navbar-brand" href="index.html">Berry Best Summers</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <nav>
+                    <ul>
+                      <li><a href="homepage.html">HOME</a></li>
+                      <li><a href="videos.html">VIDEOS</a></li>
+                      <li><a href="drawings.html">DRAWINGS</a></li>
+                      <li><a href="poems.html">POEMS</a></li>
+                      <li><a href="recipies.html">RECIPIES</a></li>
+                      <li><a href="stories.html">STORIES</a></li>
+                      <li><a href="funfacts.html">FUN FACTS</a></li>
+                      <li><a href="games.html">GAMES</a></li>
+                      <li><a href="contact.html">CONTACT US</a></li>
+                      <li><a href="about.html">ABOUT US</a></li>
+                    </ul>
+                </nav>
+              
+            </div>
+        
+        </nav>
+
+        <h1>Fun Facts</h1>
+        <h3>Here are some fun facts!</h3>
+        <hr>
+        <button id = "funfact1" type = "button" onclick = "return funfact1()">Fun fact #1</button>
+        <br>
+        <br>
+        <button id = "funfact2" type = "button" onclick = "return funfact2()">Fun fact #2</button>
+        <br>
+        <br>
+        <button id = "funfact3" type = "button" onclick = "return funfact3()">Fun fact #3</button>
+        <br>
+        <br>
+        <button id = "funfact4" type = "button" onclick = "return funfact4()">Fun fact #4</button>
+        <img src = "https://share.sketchpad.app/21/189-8c93-cea6db.png">
+        <hr>
+        <h4>White hole from fun fact 3</h4>
+        <br>
+        <br>
+        <img src = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEBIVFRUXFRcXFRUVFRUXFRUWFxUWFhUVFRUYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi8lHyUtLS0rLy0tLS0tLS01LS0tLS8tLS0rLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALEBHAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADQQAAIBAgQEBAUDBAMBAAAAAAABAgMRBCExQQUSUWEGcYGREyKhwfCx4fEUMkLRI2JyUv/EABoBAAIDAQEAAAAAAAAAAAAAAAABAgMEBQb/xAArEQACAgICAQMDAwUBAAAAAAAAAQIDBBESITETQVEFImFxkaEUFTJCUiP/2gAMAwEAAhEDEQA/APDRQAAAAAAAUBbAAgoC2HoBAFFsSUQEAdYLD4sQgWHWFJKIDbBYdYWxLiLYywth1hbD4hsZYWw+wtiaiLZHYLElg5R8RbI2gsP5QsR4j2RiEnKHKRcWGyOwOO/5l/KH8ojiQaHsZYQegS/NCOhjBBzQhBjEAUQQCAKIACAAIAFFiu9tdfLQQUAAAFGACoVIdEthHsTYiiKoj0hygaFV8IjyGRQvITUaWZYlh7ammvGco7K5WJPRQ5RVEsfDD4RU6Gh80QcoJE3IKqZFVvY+RDyiqJNyByj4Bsi5ReUlURygTUCLZDyhyljkHfD/AG9/3LPTI8iryC/DLfwm87fisPjQBUuQOaRR+GHwzQWHB4ctWI9FTvRnOmMlE0ZUCKVErniMkrkUHEY0XJ0iGUDJOlxLozTIGhLEriNaKXAmmRAOaGlDWiYgChJ3/QQDBQABigCHWGkIRIckCRJGJfCsi2NSHxiOjEmUOhqhS2VynobTgXaNC6yzYynRN/w9wuVSoopa6ZanVxqdLtGHIvUIttkOH4XeK5X8z9itXwck2pRfsei0/C3K06k4pr/GOfo7aepafh+nLWLfqaU4fPRxn9QlGetNnllHBttXWW458PlfJfqesUuA0lrT9ndlmPh+i9IW7bkG6UtMmvqNjfUTxipg2tUOhhcj13EeGaMo/wBtrav/AGZuJ8KQaXw83+ZWIqFL7RL+6NaUotHmVTCtbEMqR3vGOASgr8udszlatAqsoTW0bsTPjcjMVMeoFp0B0aJnVejdzK8KFy2sBJWuvJGjwvh/PJJ6b7v0PTPDvB6MFGcqaqZS5YSjblekW+vkX8VCO2jm5Gdwmq49s8swnCJzeS+hu4PwpUf+L9j0zCcLgl8tNRzu2tF2S2LEsPFNKzbfrbz6Ev6qEeooxTlk2dt6R51HwhPovcr1fCs1eyv7M9Ojhkr73eV9gqcPbWd/pf32BZ3zor9G/wAqR4zjeATi7W/kiXBJRTlUVkexV+HppLKXmlf6GfxOhz5qELpW5UuW/fLcsWRGXhELMjIrj32eIvCSc+VLMgxWGcW00em42hhoNVqikp3cbdt2zmK2FhVqz5U7axtn7g6YyT2jbj/UXP7nHS1/Jxs4EUkavEcLyTcTPqRObdRx2dmuxSSaK0kMaJpIiaObZE1RY0GgAoJDRQAAFQ5DUPii2CEx0UTRiNgienA6NVWyictCwgXKNC42jTOw8N8F5nzS0OtRStbZzcvKVUeTGcA8OSqarK13J5JeZ3HCuGwpr5Y3/wCzy+jL3C8HGUUlH5V6X7tbm1h8C2nZJJbkL8pR+1HFULcp8pePgzqdBOPyxv8AfyNPC4WC/wAc9+3XMnWFdvlV0iOMJXilo3bP6nPnby9zdXjqHsSUsEnlFO/fMfPAu6zs9+78i1Tiov5dfoWa907szO2WzYqI6MLE4ed/ltfpbIpVMFb+9NO+Vlv2OnU16/Yr105ZSt2X8FkMiS6KbMWEuzDcHy2lmmmnfo/0OG8QeGErypZpO9t12Z6XXw3TNGbjMK7XWv6mzHyNP9TFbRKD5R8o8Yq4Zp2aJsHguZrLc7rjnAoz+eFk91/oXw1wZRfPNaf2p9epsahrn7El9Qlx4a+4seHeAqmlKavJ6J7ea6nV4bDLWX56E+Cw6y/Lml/T5nKvyXJmnHxP9n2zPhG/Us/0t/KxapU7PQlUHe2T3RjlZ8G6NJmf0zj0t21Ei75JPS97mnXg9kZ9OpJ3Vt8svQlGba2KVaXRncXlleF+ZWvkZ1apGX/t22f1OhrQ6533M6thU2pRVm0011NVViS0Yr6XLs5/F4CjVT+MpaZuNr+vU5Xi2FwmEi5UJurVldR2UO7R3OPw/KlKK0dpXezWfmcH4rwajLmjo8zqUff7vXwclR4WcH4f6nDYmg85yd29+5mzRqYupqloZ1VEchL2PR0t67Kk4kEkWJkEji3JG+DI2IOY0xPyXCIAFixIBYolghkSWCNVMSEmS04lqjAhpRNXhmH5pWZ28aow3WcU2zU8P8MdWdl7s9M4dw+MafKt8jn/AArgXa+vQ7jhmGSefl/Bfk2cFpHm5yeRfp+EWuGUox01WXrrY16C5ovLyy/Uiw9FJuxIpqDaSvbN9zh2T5M7NNfCOvYs0aab0t+gTp3d1ay+pSp8Rsmld22+3cv0Kyau1tkUyjJGiLi/BC6SWt73/PsWFBWvJ5/mxDUrRcb55dtyChilK6bV17hptD2kWqlW2Wr7ZEbpc2n7oljmrvfQiqxakrdLNfcSG/yNjSsnntn+5TxsO2ZeeTsUa05Jrp5FkN7KbEtGPisE1F33+iK3B01O23c2sZU3ayM+hBc19r3ub42NwaZyLqFG2Mo+x1mEw2ReVBJFTh07xWZelI4829npqVHjspVAg1ZO3vclqRutbC8mWobFxeyHEyvayzK/I7plmc8yOtUTy37fclErlp9sqwjd53b2X7kUsO755WFVVKXLdXyJpSWr6vPvoW7aKGkzMx9NOLaeS19TgvFFH/iz2bR3mPuk81nf7HD+JVak13Z18DycTOWpxZ5fjFmzNqs0cbqzOqsuyDtUeCtUIJE9R9CvI41zN8BjGisQwsuQg5DRyHEY5E1NEUSambaV2VTLdFGzwmm3JGNRZtcKqWkju4rRzMrfF6PV+AxSjHlVr2+mp1GGwmjv6epynApfLDpY7CnUet9rGLN2pdHG+npNPfyaVKCj6vUhxy+a6V3siPDyaabeWhYqbXyOX4kdzzEpUaG04q/ZaFxU2ur+xJRd3s88y3O98tN+wpzeyUILRW/prxz36fUzsRhvhvnT6trX+DX+Ks5LyIMTDmixQm0xzimuijhMYpb3t6Gl8RW0Rn4fhqgnbJlhRt7fUlPi39pGHJLsWVTmfV/QgxcLvPyyLVCGTf6ENRWi72vs/wBAi++gkuuzOrRea/PMyVW5bx3vb0djarzsr5ZL1OTrzcqlk9ZZ9joY8eW9nGzrPT1rydxwmu+RPrsaLq7My+EtKN9H9beWxpOomrM5tq+5nbx5f+a7HXbs0NlV8iKU3y/L1IKla3y9fzIio7LHPRap/Pn7kVSnfJZahQq5KK/cdUlZ5XDtMi2mjMnh0ptteujsiZ1VdJ6Xy7lurO2drtp2MivVlbNcrto7Zd20Xx3MzzagiLiLWWdrX316nn/jDFfLY6bGYhvNvRXstL7fc838U41yk8zt4dXHtnEnL171Fe3ZzGLlmUKjLNeRSqSKMmfZ6GqPRFNkMx8mRNnItkbYoaxBRDKy0Qcho5BEB6RPTIIk9M3U62UzLNI1eHytJGXTL+E1OzjPswXraZ6zwCalRT6a+XU6DB8XimoWzazvpc4vwxWahZdDqeG04u91npp00Y8muL22eboslC1xj8nWYV5Xy6rS5YpxUm7r3M3D2ild/ljRo1Fa5wprR6KuW0SU6Sg/cmVZcrzyZHUkrf6K8MRqlnlp/JVpvsv5KPSJ42iklZIRJt7JXCq9GRVpJtZ2tr0GkJ9EkoNvIdOD313KT5+ZO/yrvqW6eIT/AJG00JST6G1q/KvQoTxfO7W/cl4nVurLW2pnqtGGy012Lq69reuzPdZp630NxG6/TuYMqMYVP+R2tmvffoa1fiEFzTk9NO5wHifxApyukk7JZdlb6/c6WPCS8+Dh5S9eSjDt7/g9JwGKS0azzvsaNOrzb23PHeC+LZUlaXzRvp07pndcK4/SrK8Jq/SWUkV3Yb/yj2jfXfKr7ZrR13xtvxjcTUatuY6xtl+P6kqx91mzH6DRqWVFryWq1WVnaSV9BuFxV8r6atq17b5lL4sXo/pf+CjWrWvn5WLY0b6Kp5Kj2bNfGpbN9DLxuM504Z+avf0M3E46ybl8qWts/cs8J41hYwcl89RbvbqktvMvVHprlrZhnmKx8d6XuyfH8PjhcO3Ud6zs7bKL1T692eLeIaydSTT1ea/12O38aeJ3V3ztbXP07HmWMq3bZroU4wcpvtl+HVGVjnBaj4Xy/wAv8srVpFSpIkqSK85HNyLDv1xGyYxg2Izmyls0JCCCg1bJrMrZIRDkIKgQD0TQIUiWDNNUiqZbpmhhG9fz8yMymy3RmdjGsRitjs9B8MYnRM7JOULWWquns1/s8o4VxBxaseg8G41eHLJcy1Wej6o12pvtHlsumVNrn7HZ4ZOajfK2uX0ZqKXLHPQ5zh2PakuZpLf86G1VxkHkpa+2hx7q5KWtdHVxcmucNplynJN5O/T9xzsrPIzKcmt1l0/QknVUrO9uzX3KXX2bFatGmq+3cZVXMnpcpRxK0v8AcixTm18smumSIqvsk7uvklxE1FJZXZWpzbuo5W/NtyOrUaVm75alerjvh2sr9tPc0wqb6RlsvSe2TVJPXN2/UzsXiEk7uy3YY7ikYR5puy+voedeJ/E7neMMo9t+7NtFD/yl0jHOcrXwrF8T+Ieb5IP5V9e5yNbFuWpBiK7lqV3Mlbft6j4Oti4cao/ksSrE2H4jKLumzPcxrkVK6Se0zXKqMlpo7PAeNK0MnO675/qbFLx47ZxX6HmfOCqlv9T/ANRTMc/plT8dfoemz8dPZL6mfivGFSWjt2WRwfxgdYksuC8RK/7VX79nSV/EM3fPJ7FdcWto/O25guoM+IJ5my6OBWlpI1sTjXLNszK1W5C6hHKZntyto1V0KPgWciFsVsY2cu2ezVFBcQBDO2TAAYhEBw5MahUAD0SRI0PiWRZXIsQJ4SKsWSxkbKrNGeUS/RqGvhOIOO7OehMnhVOvTftGO6hS8nf4bjLlTjyN3i889rZ+Z02A8QqUU200vL6HlWE4g4xa6iUOJSjHlUrZF7UJLTORL6dJN8Hrs9ghxZTdoTXvn5FvDVKl2pNt783TpmeLw4vOMr3szXp+Laz+aU23a1/XfuQdUH1F/uRliZEXtPZ6e8W09Ld8yWOKvq8u+n1R5TPxXV/+37lav4lqv/J+4nRWvLHHHyT1fiPE6a/umkl0k/sc5xTxfTT+VX7s86xPF5y1ehRlim9SKlTX15NEfp0592P9jc4vx2dVtuWRhVq1yCdQilMzXZLn0dejFjWtJEkpjOYjchOYycjVok5hvMM5hLjch6H8wcxHcS4uYaH8wcwxS7X9/fIa2Rch6JHIa5DbiNkHMehWxrYjYlyiUyWgbEbAQqbGACARGAAIADxUIhRCHIfFkaHJkkRaJkx8ZECkPclt+MsUitomUiSNQq8wc5orucSLhst/FF5ypzg6hoWT8i9ItKoL8Upc4vOJZI/SLfxhrqX0KzmJzilfJjVSJpVBrkR84nMVctk1EkchrkM5hLg5j0PuJcYmDZHkPQ64lxLiXFyDQ5sLjbiC5hoe3+/7DRLhcXIBbiCXC4nIYDRRCqQwEACAwC4WEAAAAEA8AABCipjQAB9xbjLhclsWh9wuMuFx7DQ64XGhcfIeh1xbjAuNSDQ64XG3C5LkA64XG3C4cgHXEuIFxcgFBiCBsB1wuNAOQDguNANgKIAhHYCiAILYAACCAUQAEMAF5hGIAEAAAehQABAAoAMQAAYAAAMAAAEAAAEkAAAAwAAAQCIUAJAKIAAxAAAAAAAACCMUCICAAAAMQAEAAAAMBAAQAAAAH//Z">
+        <hr>
+        <h4>Contact Binary Star from fun fact 4</h4>
+        <hr>
+        <br>
+        <br>
+        <h4>Did you know that, to show light speed, the wavelengths won't be longer, but shorter? It would actually look like this:</h4>
+        <img src = "https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/images/m_hyperspace011513.jpg">
+        <br>
+        <br>
+        <hr>
+        <h3>If you want to give us a fun fact to add, then email us at berrybestieshelp@gmail.com.</h3>
+    </body>
+</html>
